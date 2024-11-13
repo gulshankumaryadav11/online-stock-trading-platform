@@ -30,7 +30,7 @@ Verify
 Open In Editor
 Edit
 Copy code
-git clone https://github.com/yourusername/stock-trading-platform.git
+git clone 
 cd stock-trading-platform
 Build the project using Maven:
 
