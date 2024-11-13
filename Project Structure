@@ -1,0 +1,29 @@
+stock-trading-platform/
+|-- src/
+|   |-- main/
+|   |   |-- java/
+|   |   |   |-- com/
+|   |   |   |   |-- example/
+|   |   |   |   |   |-- stocktrading/
+|   |   |   |   |   |   |-- StockTradingApplication.java
+|   |   |   |   |   |   |-- controller/
+|   |   |   |   |   |   |   |-- UserController.java
+|   |   |   |   |   |   |   |-- StockController.java
+|   |   |   |   |   |   |   |-- OrderController.java
+|   |   |   |   |   |   |-- model/
+|   |   |   |   |   |   |   |-- User.java
+|   |   |   |   |   |   |   |-- Stock.java
+|   |   |   |   |   |   |   |-- Order.java
+|   |   |   |   |   |   |-- repository/
+|   |   |   |   |   |   |   |-- UserRepository.java
+|   |   |   |   |   |   |   |-- StockRepository.java
+|   |   |   |   |   |   |   |-- OrderRepository.java
+|   |   |   |   |   |   |-- service/
+|   |   |   |   |   |   |   |-- UserService.java
+|   |   |   |   |   |   |   |-- StockService.java
+|   |   |   |   |   |   |   |-- OrderService.java
+|   |   |   |   |   |   |-- StockTradingApplication.properties
+|   |   |   |   |   |-- SecurityConfig.java
+|   |   |-- resources/
+|   |   |   |-- application.properties
+|-- pom.xml
