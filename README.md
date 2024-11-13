@@ -1,4 +1,7 @@
 Online Stock Trading Platform
+
+
+
 Overview
 This is a simplified online stock trading platform built using Spring Boot. The platform allows users to register, view available stocks, and place buy or sell orders. It uses an in-memory H2 database for data storage.
 
