@@ -1,0 +1,27 @@
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderService {
+    @Autowired
+    private OrderRepository orderRepository;
+
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private StockService stockService;
+
+    public String placeOrder(Long userId, String stockSymbol, int quantity, String orderType) {
+        User user = userService.findById(userId);
+        Stock stock = stockService.findBySymbol(stockSymbol);
+
+        if (user == null || stock == null) {
+            return "User  or Stock not found!";
+        }
+
+        double totalCost = stock.getPrice() * quantity;
+
+        if (orderType.equals("buy")) {
+            if (user.getBalance() >= totalCost) {
+                user.set
