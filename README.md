@@ -65,7 +65,7 @@ Edit
 Copy code
 java -jar target/stock-trading-platform-0.0.1-SNAPSHOT.jar
 Accessing the Application
-Once the application is running, you can access it at http://localhost:8080.
+Once the application is running, 
 
 API Endpoints
 User Registration
