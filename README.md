@@ -111,7 +111,7 @@ View available stocks: Send a GET request to /api/stocks.
 Place an order: Send a POST request to /api/orders with the appropriate JSON body.
 
 Database
-This application uses an in-memory H2 database. You can access the H2 console at http://localhost:8080/h2-console (default username: sa, no password).
+This application uses an in-memory H2 database. You can access the H2 console at (default username: sa, no password).
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
