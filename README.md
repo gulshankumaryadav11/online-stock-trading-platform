@@ -1,1 +1,0 @@
-# online-stock-trading-platform
