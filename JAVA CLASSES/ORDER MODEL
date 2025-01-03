@@ -1,0 +1,27 @@
+package com.example.model;
+
+public class Order {
+    private String stockSymbol;
+    private int quantity;
+    private String orderType; // Buy or Sell
+
+    // Getters and Setters
+    public String getStockSymbol() {
+        return stockSymbol;
+    }
+    public void setStockSymbol(String stockSymbol) {
+        this.stockSymbol = stockSymbol;
+    }
+    public int getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+    public String getOrderType() {
+        return orderType;
+    }
+    public void setOrderType(String orderType) {
+        this.orderType = orderType;
+    }
+}
