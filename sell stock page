@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" ```jsp
+<html>
+<head>
+    <title>Sell Stock</title>
+</head>
+<body>
+    <h2>Sell Stock</h2>
+    <form action="trading" method="post">
+        Stock Symbol: <input type="text" name="stockSymbol" required><br>
+        Quantity: <input type="number" name="quantity" required><br>
+        <input type="submit" value="Sell">
+    </form>
+</body>
+</html>
