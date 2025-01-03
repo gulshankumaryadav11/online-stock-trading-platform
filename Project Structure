@@ -1,29 +1,25 @@
-stock-trading-platform/
-|-- src/
-|   |-- main/
-|   |   |-- java/
-|   |   |   |-- com/
-|   |   |   |   |-- example/
-|   |   |   |   |   |-- stocktrading/
-|   |   |   |   |   |   |-- StockTradingApplication.java
-|   |   |   |   |   |   |-- controller/
-|   |   |   |   |   |   |   |-- UserController.java
-|   |   |   |   |   |   |   |-- StockController.java
-|   |   |   |   |   |   |   |-- OrderController.java
-|   |   |   |   |   |   |-- model/
-|   |   |   |   |   |   |   |-- User.java
-|   |   |   |   |   |   |   |-- Stock.java
-|   |   |   |   |   |   |   |-- Order.java
-|   |   |   |   |   |   |-- repository/
-|   |   |   |   |   |   |   |-- UserRepository.java
-|   |   |   |   |   |   |   |-- StockRepository.java
-|   |   |   |   |   |   |   |-- OrderRepository.java
-|   |   |   |   |   |   |-- service/
-|   |   |   |   |   |   |   |-- UserService.java
-|   |   |   |   |   |   |   |-- StockService.java
-|   |   |   |   |   |   |   |-- OrderService.java
-|   |   |   |   |   |   |-- StockTradingApplication.properties
-|   |   |   |   |   |-- SecurityConfig.java
-|   |   |-- resources/
-|   |   |   |-- application.properties
-|-- pom.xml
+/OnlineStockTrading
+    /src
+        /com
+            /example
+                /model
+                    User.java
+                    Stock.java
+                    Order.java
+                /dao
+                    UserDao.java
+                    StockDao.java
+                    OrderDao.java
+                /service
+                    UserService.java
+                    StockService.java
+                    OrderService.java
+    /WebContent
+        /WEB-INF
+            web.xml
+        index.jsp
+        login.jsp
+        register.jsp
+        dashboard.jsp
+        buyStock.jsp
+        sellStock.jsp
