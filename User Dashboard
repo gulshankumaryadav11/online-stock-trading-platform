@@ -1,0 +1,12 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>User Dashboard</title>
+</head>
+<body>
+    <h2>Dashboard</h2>
+    <h3>Available Stocks</h3>
+    <!-- Code to display available stocks -->
+    <a href="buyStock.jsp">Buy Stock</a> | <a href="sellStock.jsp">Sell Stock</a>
+</body>
+</html>
